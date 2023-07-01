@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "email": "ivan@gamail.com",
+      "password": "$2a$10$oM4mbpp5Y5zuBk/TifjOEeiEVmgj3ekJy6yzC882Vczi/Pax0Amm.",
+      "name": "Ivan",
+      "confirmPassword": "123123",
+      "id": 1
+    },
+    {
+      "email": "denis@q.com",
+      "password": "$2a$10$kbtujPwkqxF9XKPO3Tc3z.NR20vmOuc30by1Gz4hDxBoTLZoWSn4O",
+      "name": "denis",
+      "confirmPassword": "123123",
+      "id": 2
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

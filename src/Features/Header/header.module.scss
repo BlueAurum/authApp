@@ -1,0 +1,15 @@
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: #5a189a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.logOut,
+.logIn {
+    color: white;
+    cursor: pointer;
+}

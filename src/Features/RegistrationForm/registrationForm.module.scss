@@ -1,0 +1,23 @@
+.btn {
+    background-color: #00bbf9;
+    margin-top: 20px;
+}
+
+.form {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+}
+
+.errorMessage {
+    color: red;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+}
+
+.label:not(:last-child) {
+    margin-bottom: 15px;
+}
